@@ -1,0 +1,634 @@
+EESchema Schematic File Version 4
+LIBS:HVTest-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 10 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HVTest:switch_ic4_5 U7
+U 1 1 5847AC76
+P 6550 3800
+F 0 "U7" H 7150 3100 60  0000 C CNN
+F 1 "switch_ic4/5" H 6550 3800 60  0000 C CNN
+F 2 "HVTest:test_socket" H 6550 3800 60  0001 C CNN
+F 3 "" H 6550 3800 60  0000 C CNN
+	1    6550 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR080
+U 1 1 5847ACC5
+P 8000 4100
+F 0 "#PWR080" H 8000 3850 50  0001 C CNN
+F 1 "GND" H 8000 3950 50  0000 C CNN
+F 2 "" H 8000 4100 50  0000 C CNN
+F 3 "" H 8000 4100 50  0000 C CNN
+	1    8000 4100
+	1    0    0    -1  
+$EndComp
+Text Label 7450 4100 0    60   ~ 0
+VDDA
+Text Label 7450 3500 0    60   ~ 0
+VDD
+Text Label 7450 3650 0    60   ~ 0
+RIN
+Text Label 6700 2800 3    60   ~ 0
+CIN
+Text HLabel 6550 2850 1    60   Input ~ 0
+SCLK
+Text HLabel 6400 2850 1    60   Input ~ 0
+MOSI
+Text HLabel 6250 2850 1    60   Input ~ 0
+~CSN
+$Comp
+L Device:R R11
+U 1 1 5847AE43
+P 5950 4750
+F 0 "R11" V 6030 4750 50  0000 C CNN
+F 1 "1M" V 5950 4750 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5880 4750 50  0001 C CNN
+F 3 "" H 5950 4750 50  0000 C CNN
+	1    5950 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5847AEBB
+P 5500 4500
+F 0 "R8" V 5580 4500 50  0000 C CNN
+F 1 "1M" V 5500 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5430 4500 50  0001 C CNN
+F 3 "" H 5500 4500 50  0000 C CNN
+	1    5500 4500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5847AF3D
+P 5300 3950
+F 0 "R7" V 5380 3950 50  0000 C CNN
+F 1 "1M" V 5300 3950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5230 3950 50  0001 C CNN
+F 3 "" H 5300 3950 50  0000 C CNN
+	1    5300 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5847B0CE
+P 4450 3800
+F 0 "R6" V 4530 3800 50  0000 C CNN
+F 1 "1M" V 4450 3800 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4380 3800 50  0001 C CNN
+F 3 "" H 4450 3800 50  0000 C CNN
+	1    4450 3800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5847B255
+P 5650 5100
+F 0 "R9" V 5730 5100 50  0000 C CNN
+F 1 "33M" V 5650 5100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5580 5100 50  0001 C CNN
+F 3 "" H 5650 5100 50  0000 C CNN
+	1    5650 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R10
+U 1 1 5847B2D5
+P 5650 5300
+F 0 "R10" V 5730 5300 50  0000 C CNN
+F 1 "1M" V 5650 5300 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 5580 5300 50  0001 C CNN
+F 3 "" H 5650 5300 50  0000 C CNN
+	1    5650 5300
+	0    1    1    0   
+$EndComp
+Text GLabel 4100 4250 3    60   UnSpc ~ 0
+DACO
+$Comp
+L power:GND #PWR081
+U 1 1 5847BDE6
+P 5600 3500
+F 0 "#PWR081" H 5600 3250 50  0001 C CNN
+F 1 "GND" H 5600 3350 50  0000 C CNN
+F 2 "" H 5600 3500 50  0000 C CNN
+F 3 "" H 5600 3500 50  0000 C CNN
+	1    5600 3500
+	0    1    1    0   
+$EndComp
+Text GLabel 2850 2550 0    60   UnSpc ~ 0
+VIC
+$Comp
+L Device:R R4
+U 1 1 5847C3E3
+P 3550 2450
+F 0 "R4" V 3630 2450 50  0000 C CNN
+F 1 "10" V 3550 2450 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3480 2450 50  0001 C CNN
+F 3 "" H 3550 2450 50  0000 C CNN
+	1    3550 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 5847C457
+P 3550 2650
+F 0 "R5" V 3630 2650 50  0000 C CNN
+F 1 "10" V 3550 2650 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3480 2650 50  0001 C CNN
+F 3 "" H 3550 2650 50  0000 C CNN
+	1    3550 2650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C10
+U 1 1 5847C587
+P 4450 2900
+F 0 "C10" H 4475 3000 50  0000 L CNN
+F 1 "1uF" H 4475 2800 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4488 2750 50  0001 C CNN
+F 3 "" H 4450 2900 50  0000 C CNN
+	1    4450 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR082
+U 1 1 5847C61E
+P 4450 3150
+F 0 "#PWR082" H 4450 2900 50  0001 C CNN
+F 1 "GND" H 4450 3000 50  0000 C CNN
+F 2 "" H 4450 3150 50  0000 C CNN
+F 3 "" H 4450 3150 50  0000 C CNN
+	1    4450 3150
+	1    0    0    -1  
+$EndComp
+Text Label 4400 2650 2    60   ~ 0
+VDDA
+$Comp
+L Device:C C11
+U 1 1 5847CAC3
+P 4800 2700
+F 0 "C11" H 4825 2800 50  0000 L CNN
+F 1 "1uF" H 4825 2600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 4838 2550 50  0001 C CNN
+F 3 "" H 4800 2700 50  0000 C CNN
+	1    4800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR083
+U 1 1 5847CB51
+P 4800 2950
+F 0 "#PWR083" H 4800 2700 50  0001 C CNN
+F 1 "GND" H 4800 2800 50  0000 C CNN
+F 2 "" H 4800 2950 50  0000 C CNN
+F 3 "" H 4800 2950 50  0000 C CNN
+	1    4800 2950
+	1    0    0    -1  
+$EndComp
+Text Label 4750 2450 2    60   ~ 0
+VDD
+Text Label 5450 3800 2    60   ~ 0
+HVR
+Text GLabel 4800 3950 3    60   UnSpc ~ 0
+HVR
+Text GLabel 7800 3650 2    60   UnSpc ~ 0
+RIN
+Text Notes 8050 3600 0    60   ~ 0
+Connects to 50k digipot\nChannel 0
+Text GLabel 6700 2550 1    60   UnSpc ~ 0
+CIN
+Text Notes 6300 2350 0    60   ~ 0
+Connects to array of \nswitchable capacitors
+Text GLabel 6400 4750 3    60   UnSpc ~ 0
+ICAP1
+Text GLabel 6550 4750 3    60   UnSpc ~ 0
+ICAP2
+$Comp
+L HVTest-rescue:POT-RESCUE-HVTest RV?
+U 1 1 5852C914
+P 7900 3350
+AR Path="/5852C914" Ref="RV?"  Part="1" 
+AR Path="/5847AC43/5852C914" Ref="RV2"  Part="1" 
+F 0 "RV2" H 7900 3270 50  0000 C CNN
+F 1 "20k" H 7900 3350 50  0000 C CNN
+F 2 "HVTest:EVM3Y-POT" H 7900 3350 50  0001 C CNN
+F 3 "" H 7900 3350 50  0000 C CNN
+	1    7900 3350
+	0    1    1    0   
+$EndComp
+Text GLabel 8150 3350 2    50   UnSpc ~ 0
+P0W
+$Comp
+L HVTest-rescue:POT-RESCUE-HVTest RV?
+U 1 1 5852DB90
+P 7200 2550
+AR Path="/5852DB90" Ref="RV?"  Part="1" 
+AR Path="/5847AC43/5852DB90" Ref="RV1"  Part="1" 
+F 0 "RV1" H 7200 2470 50  0000 C CNN
+F 1 "20k" H 7200 2550 50  0000 C CNN
+F 2 "HVTest:EVM3Y-POT" H 7200 2550 50  0001 C CNN
+F 3 "" H 7200 2550 50  0000 C CNN
+	1    7200 2550
+	0    1    1    0   
+$EndComp
+Text GLabel 7400 2550 2    50   UnSpc ~ 0
+P1W
+Text Notes 7650 2700 0    50   ~ 0
+Connects to 50k digipot\nChannel 1
+$Comp
+L conn:CONN_01X02 P8
+U 1 1 585659D2
+P 4300 4100
+F 0 "P8" H 4300 4250 50  0000 C CNN
+F 1 "CONN_01X02" V 4400 4100 50  0001 C CNN
+F 2 "HVTest:Pin_Header_Straight_SMT_02x01V" H 4300 4100 50  0001 C CNN
+F 3 "" H 4300 4100 50  0000 C CNN
+	1    4300 4100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7200 2400
+NoConn ~ 7900 3200
+$Comp
+L power:PWR_FLAG #FLG084
+U 1 1 58524E60
+P 4000 2350
+F 0 "#FLG084" H 4000 2445 50  0001 C CNN
+F 1 "PWR_FLAG" H 4000 2530 50  0000 C CNN
+F 2 "" H 4000 2350 50  0000 C CNN
+F 3 "" H 4000 2350 50  0000 C CNN
+	1    4000 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG085
+U 1 1 58524E98
+P 3900 2800
+F 0 "#FLG085" H 3900 2895 50  0001 C CNN
+F 1 "PWR_FLAG" H 3900 2980 50  0000 C CNN
+F 2 "" H 3900 2800 50  0000 C CNN
+F 3 "" H 3900 2800 50  0000 C CNN
+	1    3900 2800
+	-1   0    0    1   
+$EndComp
+Text GLabel 3850 3550 2    60   UnSpc ~ 0
+VHIGH
+$Comp
+L HVTest-rescue:POT-RESCUE-HVTest RV3
+U 1 1 587FEEB3
+P 3150 3550
+F 0 "RV3" H 3150 3470 50  0000 C CNN
+F 1 "1M" H 3150 3550 50  0000 C CNN
+F 2 "HVTest:EVM3Y-POT" H 3150 3550 50  0001 C CNN
+F 3 "" H 3150 3550 50  0000 C CNN
+	1    3150 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R54
+U 1 1 587FEF72
+P 3150 3200
+F 0 "R54" V 3230 3200 50  0000 C CNN
+F 1 "560k" V 3150 3200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3080 3200 50  0001 C CNN
+F 3 "" H 3150 3200 50  0000 C CNN
+	1    3150 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R55
+U 1 1 587FF040
+P 3150 3900
+F 0 "R55" V 3230 3900 50  0000 C CNN
+F 1 "2M" V 3150 3900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 3080 3900 50  0001 C CNN
+F 3 "" H 3150 3900 50  0000 C CNN
+	1    3150 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR086
+U 1 1 587FF207
+P 3150 4100
+F 0 "#PWR086" H 3150 3850 50  0001 C CNN
+F 1 "GND" H 3150 3950 50  0000 C CNN
+F 2 "" H 3150 4100 50  0000 C CNN
+F 3 "" H 3150 4100 50  0000 C CNN
+	1    3150 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:CONN_01X03 P21
+U 1 1 588003E0
+P 3600 3300
+F 0 "P21" H 3600 3500 50  0000 C CNN
+F 1 "CONN_01X03" V 3700 3300 50  0000 C CNN
+F 2 "HVTest:Pin_Header_Straight_SMT_03x01STAGGERED" H 3600 3300 50  0001 C CNN
+F 3 "" H 3600 3300 50  0000 C CNN
+	1    3600 3300
+	0    1    -1   0   
+$EndComp
+$Comp
+L Device:R R56
+U 1 1 588039C0
+P 7750 3850
+F 0 "R56" V 7830 3850 50  0000 C CNN
+F 1 "1M" V 7750 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 7680 3850 50  0001 C CNN
+F 3 "" H 7750 3850 50  0000 C CNN
+	1    7750 3850
+	0    1    1    0   
+$EndComp
+$Comp
+L conn:TEST_1P RST1
+U 1 1 58803EC0
+P 8300 3750
+F 0 "RST1" H 8300 4020 50  0000 C CNN
+F 1 "TEST_1P" H 8300 3950 50  0001 C CNN
+F 2 "HVTest:Pin_Header_Straight_SMT_01x01" H 8500 3750 50  0001 C CNN
+F 3 "" H 8500 3750 50  0000 C CNN
+	1    8300 3750
+	0    1    1    0   
+$EndComp
+Text GLabel 6700 5400 3    60   UnSpc ~ 0
+LSB
+Text GLabel 6850 5400 3    60   UnSpc ~ 0
+MSB
+$Comp
+L conn:CONN_01X02 P22
+U 1 1 5884C862
+P 4900 4600
+F 0 "P22" H 4900 4750 50  0000 C CNN
+F 1 "CONN_01X02" V 5000 4600 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 4900 4600 50  0001 C CNN
+F 3 "" H 4900 4600 50  0000 C CNN
+	1    4900 4600
+	-1   0    0    1   
+$EndComp
+Text Notes 5400 5050 0    50   ~ 0
+5%
+$Comp
+L Device:C C21
+U 1 1 5887BAAA
+P 3800 3850
+F 0 "C21" H 3825 3950 50  0000 L CNN
+F 1 "1uF" H 3825 3750 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 3838 3700 50  0001 C CNN
+F 3 "" H 3800 3850 50  0000 C CNN
+	1    3800 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR087
+U 1 1 5887BB7B
+P 3800 4050
+F 0 "#PWR087" H 3800 3800 50  0001 C CNN
+F 1 "GND" H 3800 3900 50  0000 C CNN
+F 2 "" H 3800 4050 50  0000 C CNN
+F 3 "" H 3800 4050 50  0000 C CNN
+	1    3800 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L conn:CONN_01X02 P16
+U 1 1 5887DD22
+P 7150 5000
+F 0 "P16" H 7150 5150 50  0000 C CNN
+F 1 "CONN_01X02" V 7250 5000 50  0001 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02_Pitch2.54mm" H 7150 5000 50  0001 C CNN
+F 3 "" H 7150 5000 50  0000 C CNN
+	1    7150 5000
+	1    0    0    1   
+$EndComp
+Text GLabel 6850 2850 1    60   UnSpc ~ 0
+SWITCH
+Text GLabel 7400 2800 2    60   UnSpc ~ 0
+SWDLY
+Text GLabel 8250 3950 2    60   UnSpc ~ 0
+RSTIC
+Wire Wire Line
+	7400 3950 8000 3950
+Wire Wire Line
+	8000 3850 8000 3950
+Wire Wire Line
+	7750 4100 7400 4100
+Wire Wire Line
+	7400 3500 7900 3500
+Wire Wire Line
+	7400 3650 7800 3650
+Wire Wire Line
+	6700 2550 6700 2950
+Wire Wire Line
+	6550 2850 6550 2950
+Wire Wire Line
+	6250 2850 6250 2950
+Wire Wire Line
+	6400 2850 6400 2950
+Wire Wire Line
+	6700 4650 6700 5050
+Wire Wire Line
+	6850 4650 6850 4950
+Wire Wire Line
+	6100 4750 6250 4750
+Wire Wire Line
+	6250 4650 6250 4750
+Wire Wire Line
+	5800 4750 5650 4750
+Wire Wire Line
+	5650 4750 5650 4100
+Wire Wire Line
+	5650 4100 5700 4100
+Wire Wire Line
+	5500 4650 5500 4900
+Wire Wire Line
+	5500 4900 6250 4900
+Connection ~ 6250 4750
+Wire Wire Line
+	5500 4350 5500 3950
+Wire Wire Line
+	5450 3950 5500 3950
+Connection ~ 5500 3950
+Wire Wire Line
+	5100 3950 5150 3950
+Wire Wire Line
+	4600 3800 4800 3800
+Wire Wire Line
+	4100 3800 4300 3800
+Wire Wire Line
+	5800 5100 6700 5100
+Connection ~ 6700 5100
+Wire Wire Line
+	5800 5300 6850 5300
+Connection ~ 6850 5300
+Wire Wire Line
+	5100 5300 5500 5300
+Wire Wire Line
+	5500 5100 5100 5100
+Wire Wire Line
+	3600 3650 3800 3650
+Wire Wire Line
+	5600 3500 5700 3500
+Wire Wire Line
+	2850 2550 3150 2550
+Wire Wire Line
+	3150 2450 3150 2550
+Wire Wire Line
+	3150 2450 3400 2450
+Wire Wire Line
+	3150 2650 3400 2650
+Connection ~ 3150 2550
+Wire Wire Line
+	4450 3150 4450 3050
+Wire Wire Line
+	3700 2650 3900 2650
+Wire Wire Line
+	4450 2650 4450 2750
+Wire Wire Line
+	4800 2450 4800 2550
+Wire Wire Line
+	4800 2850 4800 2950
+Wire Wire Line
+	6550 4750 6550 4650
+Wire Wire Line
+	6400 4750 6400 4650
+Wire Wire Line
+	8150 3350 8050 3350
+Wire Wire Line
+	7400 2550 7350 2550
+Wire Wire Line
+	3700 2450 4000 2450
+Wire Wire Line
+	3900 2800 3900 2650
+Connection ~ 3900 2650
+Wire Wire Line
+	4000 2450 4000 2350
+Connection ~ 4000 2450
+Wire Wire Line
+	3150 4100 3150 4050
+Wire Wire Line
+	3150 3750 3150 3700
+Wire Wire Line
+	3150 3400 3150 3350
+Wire Wire Line
+	4800 3800 4800 3950
+Connection ~ 4800 3800
+Wire Wire Line
+	4100 4250 4100 4150
+Wire Wire Line
+	4100 4050 4100 3800
+Wire Wire Line
+	3600 3650 3600 3500
+Wire Wire Line
+	3700 3500 3700 3550
+Wire Wire Line
+	3700 3550 3850 3550
+Wire Wire Line
+	3500 3500 3500 3550
+Wire Wire Line
+	3500 3550 3300 3550
+Wire Wire Line
+	7900 3850 8000 3850
+Connection ~ 8000 3950
+Wire Wire Line
+	8300 3750 8150 3750
+Wire Wire Line
+	7500 3750 7500 3800
+Wire Wire Line
+	7500 3850 7600 3850
+Wire Wire Line
+	7500 3800 7400 3800
+Connection ~ 7500 3800
+Wire Wire Line
+	5100 3800 5100 3950
+Connection ~ 5100 3800
+Wire Wire Line
+	5100 4650 5100 5100
+Connection ~ 5100 5100
+Connection ~ 5100 3950
+Wire Wire Line
+	3800 3700 3800 3650
+Connection ~ 3800 3650
+Wire Wire Line
+	3800 4050 3800 4000
+Connection ~ 3150 2650
+Wire Wire Line
+	6850 2850 6850 2950
+Wire Wire Line
+	7400 2800 7200 2800
+Wire Wire Line
+	7200 2800 7200 2700
+Wire Wire Line
+	6700 5050 6950 5050
+Connection ~ 6700 5050
+Wire Wire Line
+	6950 4950 6850 4950
+Connection ~ 6850 4950
+Wire Wire Line
+	8250 3950 8150 3950
+Wire Wire Line
+	8150 3950 8150 3750
+Connection ~ 8150 3750
+Wire Wire Line
+	6250 4750 6250 4900
+Wire Wire Line
+	5500 3950 5700 3950
+Wire Wire Line
+	6700 5100 6700 5400
+Wire Wire Line
+	6850 5300 6850 5400
+Wire Wire Line
+	3150 2550 3150 2650
+Wire Wire Line
+	3900 2650 4450 2650
+Wire Wire Line
+	4000 2450 4800 2450
+Wire Wire Line
+	4800 3800 5100 3800
+Wire Wire Line
+	8000 3950 8000 4100
+Wire Wire Line
+	7500 3800 7500 3850
+Wire Wire Line
+	5100 3800 5700 3800
+Wire Wire Line
+	5100 5100 5100 5300
+Wire Wire Line
+	5100 3950 5100 4550
+Wire Wire Line
+	3800 3650 5700 3650
+Wire Wire Line
+	3150 2650 3150 3050
+Wire Wire Line
+	6700 5050 6700 5100
+Wire Wire Line
+	6850 4950 6850 5300
+Wire Wire Line
+	8150 3750 7500 3750
+Text Notes 4900 5700 0    60   ~ 0
+Set reference current\nIset = VDAC / R\nVsetHIGH = Iset * RFB = Iset * 1e9
+Text Notes 4750 4250 0    60   ~ 0
+FB
+Text Notes 3850 4650 0    60   ~ 0
+ULP Ref DAC
+Text Notes 4150 3650 0    60   ~ 0
+Comparator High Threshold
+Text Notes 1550 3650 0    60   ~ 0
+Limits set point to ensure \ninternal FETs stay in saturation
+Text Notes 8250 3150 0    60   ~ 0
+Sets R that, along with capacitor connected to CIN,\nsets pulse width of switching pulse
+Text Notes 7650 2500 0    60   ~ 0
+Controls rise and fall time of switch pulse
+$EndSCHEMATC

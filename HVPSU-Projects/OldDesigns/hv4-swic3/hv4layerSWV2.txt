@@ -1,0 +1,105 @@
+Partlist exported from C:/Users/User/Desktop/HVRev4/hv4layerSWV2.sch at 2/3/2016 4:06:04 PM
+
+Part  Value                  Device                 Package Description          MF MPN OC_FARNELL OC_NEWARK PROD_ID    TP_SIGNAL_NAME VALUE
+C1    100uF                  CAP_POL6032            EIA6032 Capacitor Polarized                                                             
+C2    100nF                  CAP1210                1210    Capacitor                                                                       
+C3    100nF                  CAP1210                1210    Capacitor                                                                       
+C4    100nF                  CAP1210                1210    Capacitor                                                                       
+C5    100nF                  CAP1210                1210    Capacitor                                                                       
+C6    100nF                  CAP1210                1210    Capacitor                                                                       
+C7    100nF                  CAP1210                1210    Capacitor                                                                       
+C8    100nF                  CAP1210                1210    Capacitor                                                                       
+C9    100nF                  CAP1210                1210    Capacitor                                                                       
+C10   100nF                  CAP1210                1210    Capacitor                                                                       
+C11   100nF                  CAP1210                1210    Capacitor                                                                       
+C12   100nF                  CAP1210                1210    Capacitor                                                                       
+C13   100nF                  CAP1210                1210    Capacitor                                                                       
+C14   100nF                  CAP1210                1210    Capacitor                                                                       
+C15   100nF                  CAP1210                1210    Capacitor                                                                       
+C16   100nF                  CAP1210                1210    Capacitor                                                                       
+C17   100nF                  CAP1210                1210    Capacitor                                                                       
+C18   100nF                  CAP1210                1210    Capacitor                                                                       
+C19   100nF                  CAP1210                1210    Capacitor                                                                       
+C20   100nF                  CAP1210                1210    Capacitor                                                                       
+C21   100nF                  CAP1210                1210    Capacitor                                                                       
+C22   100nF                  CAP1210                1210    Capacitor                                                                       
+C23   100nF                  CAP1210                1210    Capacitor                                                                       
+C24   100nF                  CAP1210                1210    Capacitor                                                                       
+C25   100nF                  CAP1210                1210    Capacitor                                                                       
+C32   0.1                    22UF-6.3V-20%(0805)    0805    CAP-08402                                        CAP-08402                 22uF 
+C34   3300p                  22UF-6.3V-20%(0805)    0805    CAP-08402                                        CAP-08402                 22uF 
+C36   1nF                    22UF-6.3V-20%(0805)    0805    CAP-08402                                        CAP-08402                 22uF 
+C38   0.1                    22UF-6.3V-20%(0805)    0805    CAP-08402                                        CAP-08402                 22uF 
+C39   0.1                    22UF-6.3V-20%(0805)    0805    CAP-08402                                        CAP-08402                 22uF 
+D1                           DIODESOT23             SOT23-3 Diode                                                                           
+D2                           DIODESOT23             SOT23-3 Diode                                                                           
+D3                           DIODESOT23             SOT23-3 Diode                                                                           
+D4                           DIODESOT23             SOT23-3 Diode                                                                           
+D5                           DIODESOT23             SOT23-3 Diode                                                                           
+D6                           DIODESOT23             SOT23-3 Diode                                                                           
+D7                           DIODESOT23             SOT23-3 Diode                                                                           
+D8                           DIODESOT23             SOT23-3 Diode                                                                           
+D9                           DIODESOT23             SOT23-3 Diode                                                                           
+D10                          DIODESOT23             SOT23-3 Diode                                                                           
+D11                          DIODESOT23             SOT23-3 Diode                                                                           
+D12                          DIODESOT23             SOT23-3 Diode                                                                           
+D13                          DIODESOT23             SOT23-3 Diode                                                                           
+D14                          DIODESOT23             SOT23-3 Diode                                                                           
+D15                          DIODESOT23             SOT23-3 Diode                                                                           
+D16                          DIODESOT23             SOT23-3 Diode                                                                           
+D17                          DIODESOT23             SOT23-3 Diode                                                                           
+D18                          DIODESOT23             SOT23-3 Diode                                                                           
+D19                          DIODESOT23             SOT23-3 Diode                                                                           
+D20                          DIODESOT23             SOT23-3 Diode                                                                           
+D21                          DIODESOT23             SOT23-3 Diode                                                                           
+D22                          DIODESOT23             SOT23-3 Diode                                                                           
+D23                          DIODESOT23             SOT23-3 Diode                                                                           
+D24                          DIODESOT23             SOT23-3 Diode                                                                           
+DAC   M01PTH                 M01PTH                 1X01    Header 1                                                                        
+DACI  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+DRIVE TPTP20R                TPTP20R                TP20R   Test pad                                                                        
+GND   M01PTH                 M01PTH                 1X01    Header 1                                                                        
+GNDO  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP1   M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP2   M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP3   M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP4   M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP5   M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP6   M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP7   M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP8   M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP9   M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP10  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP11  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP12  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP13  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP14  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP15  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP19  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP20  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP21  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP22  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+JP23  M01PTH                 M01PTH                 1X01    Header 1                                                                        
+Q1    MOSFET-NCHANNELAO3404A MOSFET-NCHANNELAO3404A SOT23-3 Common NMOSFET Parts                             TRAN-12988                     
+R2    10                     RESISTOR2512           R2512   Resistor                                                                        
+R3    10                     RESISTOR2512           R2512   Resistor                                                                        
+R4    100K                   RESISTOR0805-RES       0805    Resistor                                                                        
+R5    0                      RESISTOR0805-RES       0805    Resistor                                                                        
+R6    1G                     RCA4090                CA4090  Power Resitor               unknown    unknown                                  
+R7    0                      RESISTOR0805-RES       0805    Resistor                                                                        
+R8    1M                     RESISTOR0805-RES       0805    Resistor                                                                        
+R10   20k                    TRIM_US-3223W          3223W   POTENTIOMETER                                                                   
+R11   20K                    TRIM_US-3223W          3223W   POTENTIOMETER                                                                   
+R24   1M                     RESISTOR0805-RES       0805    Resistor                                                                        
+R25   1M                     RESISTOR0805-RES       0805    Resistor                                                                        
+R26   1M                     RESISTOR0805-RES       0805    Resistor                                                                        
+R27   1M                     RESISTOR0805-RES       0805    Resistor                                                                        
+R28   270K                   RESISTOR0805-RES       0805    Resistor                                                                        
+R29   2.2M                   RESISTOR0805-RES       0805    Resistor                                                                        
+R30   0                      RESISTOR0805-RES       0805    Resistor                                                                        
+R31   100                    RESISTOR0805-RES       0805    Resistor                                                                        
+R32   100                    RESISTOR0805-RES       0805    Resistor                                                                        
+U$1   QFN20GEN               QFN20GEN               QFN20                                                                                   
+U$2   LPR6235                LPR6235                LPR6235                                                                                 
+VCC   M01PTH                 M01PTH                 1X01    Header 1                                                                        
+VCCI  M01PTH                 M01PTH                 1X01    Header 1                                                                        

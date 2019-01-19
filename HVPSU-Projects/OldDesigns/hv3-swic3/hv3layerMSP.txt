@@ -1,0 +1,22 @@
+Partlist exported from C:/Users/User/Desktop/latestfilessubmittedtooshpark/hv3layerMSP.sch at 10/23/2015 11:16:52 PM
+
+Part Value        Device              Package  Description                PROD_ID   TP_SIGNAL_NAME VALUE
+C1   0.1u         22UF-6.3V-20%(0805) 0805     CAP-08402                  CAP-08402                22uF 
+C2   0.1u         22UF-6.3V-20%(0805) 0805     CAP-08402                  CAP-08402                22uF 
+C6   0.1u         22UF-6.3V-20%(0805) 0805     CAP-08402                  CAP-08402                22uF 
+IC1               XC63FPM             SOT23    Positiv Voltage Regulators                               
+JP1  M01PTH       M01PTH              1X01     Header 1                                                 
+JP3  M01PTH       M01PTH              1X01     Header 1                                                 
+JP7  M10"         M10"                1X10     Header 10                                                
+JP8               M06SIP              1X06     Header 6                                                 
+JP9               M04PTH              1X04     Header 4                                                 
+LED1              LEDSML0805          SML0805  LED                                                      
+R1   2.2K         RESISTOR0805-RES    0805     Resistor                                                 
+R2   100K         RESISTOR0805-RES    0805     Resistor                                                 
+R3   3.3K         RESISTOR0805-RES    0805     Resistor                                                 
+R6   1K           RESISTOR0805-RES    0805     Resistor                                                 
+TP1  TPTP10R      TPTP10R             TP10R    Test pad                                                 
+TP2  TPTP10R      TPTP10R             TP10R    Test pad                                                 
+TP3  TPTP10R      TPTP10R             TP10R    Test pad                                                 
+U$2  SMA          SMA                 SMA_EDGE                                                          
+U1   G2XX3---PW28 G2XX3---PW28        PW28     MSP430G2XX1                                              

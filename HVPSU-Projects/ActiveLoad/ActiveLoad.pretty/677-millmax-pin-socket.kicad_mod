@@ -1,0 +1,9 @@
+(module 677-millmax-pin-socket (layer F.Cu) (tedit 59DCA9A9)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value 677-millmax-pin-socket (at 0 -0.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 2.032 2.032) (drill 1.2954) (layers *.Cu *.Mask))
+)

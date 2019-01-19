@@ -1,0 +1,13 @@
+(module SMA-EDGE (layer F.Cu) (tedit 58510464)
+  (fp_text reference REF** (at -2.5 0) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value SMA-EDGE (at 0 -6.5) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd rect (at 2.54 0) (size 5.08 2.29) (layers F.Cu F.Paste F.Mask))
+  (pad 2 smd rect (at 2.54 4.3825) (size 5.08 2.415) (layers F.Cu F.Paste F.Mask))
+  (pad 3 smd rect (at 2.54 -4.3825) (size 5.08 2.415) (layers F.Cu F.Paste F.Mask))
+  (pad 4 smd rect (at 2.54 -4.3825) (size 5.08 2.415) (layers B.Cu B.Paste B.Mask))
+  (pad 5 smd rect (at 2.54 4.3825) (size 5.08 2.415) (layers B.Cu B.Paste B.Mask))
+)

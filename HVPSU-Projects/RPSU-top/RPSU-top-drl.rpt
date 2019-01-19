@@ -1,0 +1,25 @@
+Drill report for C:\Users\Daniel\Google Drive\IC Research\RPSU-top\RPSU-top.kicad_pcb
+Created on 11/24/2017 2:44:26 AM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'C:RPSU-top.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.33mm  0.013"  (18 holes)
+    T2  1.00mm  0.039"  (7 holes)
+
+    Total plated holes count 25
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+    T3  0.90mm  0.035"  (2 holes)
+    T4  1.85mm  0.073"  (2 holes)
+
+    Total unplated holes count 4

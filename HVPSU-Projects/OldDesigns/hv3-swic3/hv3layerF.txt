@@ -1,0 +1,64 @@
+Partlist exported from C:/Users/User/Desktop/latestfilessubmittedtooshpark/hv3layerF.sch at 10/23/2015 11:31:28 PM
+
+Part Value    Device           Package Description                
+1    M01PTH   M01PTH           1X01    Header 1                   
+2    M01PTH   M01PTH           1X01    Header 1                   
+3    M01PTH   M01PTH           1X01    Header 1                   
+4    M01PTH   M01PTH           1X01    Header 1                   
+5    M01PTH   M01PTH           1X01    Header 1                   
+6    M01PTH   M01PTH           1X01    Header 1                   
+7    M01PTH   M01PTH           1X01    Header 1                   
+8    M01PTH   M01PTH           1X01    Header 1                   
+9    M01PTH   M01PTH           1X01    Header 1                   
+10   M01PTH   M01PTH           1X01    Header 1                   
+11   M01PTH   M01PTH           1X01    Header 1                   
+12   M01PTH   M01PTH           1X01    Header 1                   
+13   M01PTH   M01PTH           1X01    Header 1                   
+14   M01PTH   M01PTH           1X01    Header 1                   
+C1   inf      CAP0805          0805    Capacitor                  
+C2   100nF HV C-EUC2225K       C2225K  CAPACITOR, European symbol 
+C3   100nF HV C-EUC2225K       C2225K  CAPACITOR, European symbol 
+C4   inf      CAP0805          0805    Capacitor                  
+C5   inf      CAP0805          0805    Capacitor                  
+C6   100nF    CAP1210          1210    Capacitor                  
+C7   100nF    CAP1210          1210    Capacitor                  
+C8   100nF    CAP1210          1210    Capacitor                  
+C9   100nF    CAP1210          1210    Capacitor                  
+C10  inf      CAP0805          0805    Capacitor                  
+C11  100nF    CAP1210          1210    Capacitor                  
+C12  inf      CAP0805          0805    Capacitor                  
+C13  1uF      CAP0805          0805    Capacitor                  
+C14  1uF      CAP0805          0805    Capacitor                  
+C15  1uF      CAP0805          0805    Capacitor                  
+C16  1uF      CAP0805          0805    Capacitor                  
+C32  100nF    CAP1210          1210    Capacitor                  
+C33  100nF    CAP1210          1210    Capacitor                  
+C34  100nF    CAP1210          1210    Capacitor                  
+C35  100nF    CAP1210          1210    Capacitor                  
+C36  100nF    CAP1210          1210    Capacitor                  
+C37  100nF    CAP1210          1210    Capacitor                  
+C38  100nF    CAP1210          1210    Capacitor                  
+IC1           XC63FPM          SOT23   Positiv Voltage Regulators 
+JP1           M01PTH           1X01    Header 1                   
+JP2           M01PTH           1X01    Header 1                   
+JP3           M01PTH           1X01    Header 1                   
+JP4           M01PTH           1X01    Header 1                   
+JP5           M01PTH           1X01    Header 1                   
+JP6           M01PTH           1X01    Header 1                   
+JP7           M01PTH           1X01    Header 1                   
+JP8           M01PTH           1X01    Header 1                   
+JP9           M01PTH           1X01    Header 1                   
+JP10          M01PTH           1X01    Header 1                   
+JP11          M01PTH           1X01    Header 1                   
+JP12          M01PTH           1X01    Header 1                   
+JP13          M01PTH           1X01    Header 1                   
+JP14          M01PTH           1X01    Header 1                   
+JP15 M10"     M10"             1X10    Header 10                  
+JP16          M01PTH           1X01    Header 1                   
+JP17          M01PTH           1X01    Header 1                   
+JP18          M01PTH           1X01    Header 1                   
+R1   2M       RESISTOR0805-RES 0805    Resistor                   
+R2            RESISTOR0805-RES 0805    Resistor                   
+R3            RESISTOR0805-RES 0805    Resistor                   
+R4            RESISTOR0805-RES 0805    Resistor                   
+U$1  MCP4921D MCP4921D         SO08                               

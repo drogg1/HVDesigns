@@ -1,0 +1,309 @@
+EESchema Schematic File Version 4
+LIBS:HVTest-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 10
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L HVTest:MAX5531 U5
+U 1 1 584763BC
+P 5500 3700
+F 0 "U5" H 5900 3400 60  0000 C CNN
+F 1 "MAX5531" H 5750 4000 60  0000 C CNN
+F 2 "HVTest:TQFN-12-1EP_4x4mm_Pitch0.8mmV2" H 7150 3250 60  0001 C CNN
+F 3 "" H 5500 3700 60  0000 C CNN
+	1    5500 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C9
+U 1 1 58476431
+P 5050 3000
+F 0 "C9" H 5075 3100 50  0000 L CNN
+F 1 "0.1uF" H 5075 2900 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 5088 2850 50  0001 C CNN
+F 3 "" H 5050 3000 50  0000 C CNN
+	1    5050 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR020
+U 1 1 58476534
+P 5050 3200
+F 0 "#PWR020" H 5050 2950 50  0001 C CNN
+F 1 "GND" H 5050 3050 50  0000 C CNN
+F 2 "" H 5050 3200 50  0000 C CNN
+F 3 "" H 5050 3200 50  0000 C CNN
+	1    5050 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 3150 5050 3200
+Wire Wire Line
+	5050 2700 5050 2800
+Wire Wire Line
+	5050 2800 5500 2800
+Wire Wire Line
+	5500 2800 5500 3000
+$Comp
+L power:GND #PWR021
+U 1 1 584765BF
+P 5450 4250
+F 0 "#PWR021" H 5450 4000 50  0001 C CNN
+F 1 "GND" H 5450 4100 50  0000 C CNN
+F 2 "" H 5450 4250 50  0000 C CNN
+F 3 "" H 5450 4250 50  0000 C CNN
+	1    5450 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 4150 5450 4200
+Wire Wire Line
+	5450 4200 5550 4200
+Wire Wire Line
+	5550 4200 5550 4150
+Connection ~ 5450 4200
+Text HLabel 4050 3600 0    60   Input ~ 0
+SCLK
+Text HLabel 4050 3700 0    60   Input ~ 0
+MOSI
+Text HLabel 4050 3800 0    60   Input ~ 0
+~REFCSN
+Wire Wire Line
+	6150 3700 6200 3700
+Wire Wire Line
+	6150 3800 6200 3800
+Wire Wire Line
+	6200 3800 6200 3700
+Connection ~ 6200 3700
+Wire Wire Line
+	6150 3600 6700 3600
+Wire Wire Line
+	4050 3600 4850 3600
+Wire Wire Line
+	4050 3700 4850 3700
+Wire Wire Line
+	4050 3800 4850 3800
+Text Label 4350 3600 0    60   ~ 0
+SCLK
+Text Label 4350 3700 0    60   ~ 0
+MOSI
+Wire Wire Line
+	4750 5150 5050 5150
+Wire Wire Line
+	4750 5250 5050 5250
+Wire Wire Line
+	4750 5350 5050 5350
+Text Label 4800 5350 0    60   ~ 0
+MOSI
+Text Label 4800 5250 0    60   ~ 0
+SCLK
+Text GLabel 6550 5350 2    60   UnSpc ~ 0
+VDAC
+$Comp
+L power:GND #PWR022
+U 1 1 58476BC3
+P 6200 5150
+F 0 "#PWR022" H 6200 4900 50  0001 C CNN
+F 1 "GND" H 6200 5000 50  0000 C CNN
+F 2 "" H 6200 5150 50  0000 C CNN
+F 3 "" H 6200 5150 50  0000 C CNN
+	1    6200 5150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 5150 6200 5150
+$Comp
+L power:+3V3 #PWR023
+U 1 1 58476EE9
+P 4950 4750
+F 0 "#PWR023" H 4950 4600 50  0001 C CNN
+F 1 "+3V3" H 4950 4890 50  0000 C CNN
+F 2 "" H 4950 4750 50  0000 C CNN
+F 3 "" H 4950 4750 50  0000 C CNN
+	1    4950 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 4750 4950 4950
+Wire Wire Line
+	6150 5250 6550 5250
+$Comp
+L power:GND #PWR024
+U 1 1 58476F76
+P 6200 5550
+F 0 "#PWR024" H 6200 5300 50  0001 C CNN
+F 1 "GND" H 6200 5400 50  0000 C CNN
+F 2 "" H 6200 5550 50  0000 C CNN
+F 3 "" H 6200 5550 50  0000 C CNN
+	1    6200 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 5550 6200 5550
+$Comp
+L Device:C C8
+U 1 1 5847703B
+P 4050 5250
+F 0 "C8" H 4075 5350 50  0000 L CNN
+F 1 "0.1uF" H 4075 5150 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0402" H 4088 5100 50  0001 C CNN
+F 3 "" H 4050 5250 50  0000 C CNN
+	1    4050 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5100 4050 4950
+Connection ~ 4950 4950
+$Comp
+L power:GND #PWR025
+U 1 1 5847711A
+P 4050 5450
+F 0 "#PWR025" H 4050 5200 50  0001 C CNN
+F 1 "GND" H 4050 5300 50  0000 C CNN
+F 2 "" H 4050 5450 50  0000 C CNN
+F 3 "" H 4050 5450 50  0000 C CNN
+	1    4050 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 5450 4050 5400
+Text GLabel 5050 2700 1    60   UnSpc ~ 0
+VREFDAC
+Connection ~ 5050 2800
+Text GLabel 6400 3700 2    60   UnSpc ~ 0
+DACO
+Text HLabel 4750 5150 0    60   Input ~ 0
+~SUPPCSN
+$Comp
+L HVTest:MCP4912 U6
+U 1 1 58485697
+P 5600 5250
+F 0 "U6" H 5900 4800 60  0000 C CNN
+F 1 "MCP4912" H 5600 5700 60  0000 C CNN
+F 2 "Housings_SSOP:TSSOP-14_4.4x5mm_Pitch0.65mm" H 5600 5250 60  0001 C CNN
+F 3 "" H 5600 5250 60  0000 C CNN
+	1    5600 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 5050 6300 5050
+$Comp
+L power:+3V3 #PWR026
+U 1 1 584858CD
+P 6300 5450
+F 0 "#PWR026" H 6300 5300 50  0001 C CNN
+F 1 "+3V3" H 6300 5590 50  0000 C CNN
+F 2 "" H 6300 5450 50  0000 C CNN
+F 3 "" H 6300 5450 50  0000 C CNN
+	1    6300 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 5450 6150 5450
+Text GLabel 6550 4950 2    60   UnSpc ~ 0
+VHIGH
+Wire Wire Line
+	6150 5350 6500 5350
+Wire Wire Line
+	6150 4950 6550 4950
+Text Notes 6050 3450 0    60   ~ 0
+ULP Reference DAC
+Text Notes 6050 4750 0    60   ~ 0
+Dual DAC to generate supply voltage \nas well as comparator high threshold
+Text Notes 5150 2550 0    60   ~ 0
+Selectable supply
+$Comp
+L power:PWR_FLAG #FLG027
+U 1 1 585248F5
+P 5650 3000
+F 0 "#FLG027" H 5650 3095 50  0001 C CNN
+F 1 "PWR_FLAG" H 5650 3180 50  0000 C CNN
+F 2 "" H 5650 3000 50  0000 C CNN
+F 3 "" H 5650 3000 50  0000 C CNN
+	1    5650 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5650 3000 5500 3000
+Connection ~ 5500 3000
+$Comp
+L conn:TEST_1P W1
+U 1 1 5884B643
+P 6700 3600
+F 0 "W1" H 6700 3870 50  0000 C CNN
+F 1 "TEST_1P" H 6700 3800 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6900 3600 50  0001 C CNN
+F 3 "" H 6900 3600 50  0000 C CNN
+	1    6700 3600
+	0    1    1    0   
+$EndComp
+Text GLabel 6550 5250 2    50   UnSpc ~ 0
+VIC
+$Comp
+L power:+3V3 #PWR028
+U 1 1 58871FD1
+P 6300 5050
+F 0 "#PWR028" H 6300 4900 50  0001 C CNN
+F 1 "+3V3" H 6300 5190 50  0000 C CNN
+F 2 "" H 6300 5050 50  0000 C CNN
+F 3 "" H 6300 5050 50  0000 C CNN
+	1    6300 5050
+	0    1    1    0   
+$EndComp
+Text Notes 7050 5500 0    100  ~ 0
+3.3 V Supply current \n0.25 mA (MCP4912)
+Text Notes 6300 3150 0    100  ~ 0
+Supply current\n6 uA (MAX5531)
+$Comp
+L Device:C C81
+U 1 1 5888EB4E
+P 6500 5600
+F 0 "C81" H 6525 5700 50  0000 L CNN
+F 1 "1uF" H 6525 5500 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603" H 6538 5450 50  0001 C CNN
+F 3 "" H 6500 5600 50  0000 C CNN
+	1    6500 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR029
+U 1 1 5888F31D
+P 6500 5800
+F 0 "#PWR029" H 6500 5550 50  0001 C CNN
+F 1 "GND" H 6500 5650 50  0000 C CNN
+F 2 "" H 6500 5800 50  0000 C CNN
+F 3 "" H 6500 5800 50  0000 C CNN
+	1    6500 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4050 4950 4950 4950
+Wire Wire Line
+	6500 5800 6500 5750
+Wire Wire Line
+	6500 5450 6500 5350
+Connection ~ 6500 5350
+Wire Wire Line
+	5450 4200 5450 4250
+Wire Wire Line
+	6200 3700 6400 3700
+Wire Wire Line
+	4950 4950 5050 4950
+Wire Wire Line
+	5050 2800 5050 2850
+Wire Wire Line
+	5500 3000 5500 3250
+Wire Wire Line
+	6500 5350 6550 5350
+$EndSCHEMATC
