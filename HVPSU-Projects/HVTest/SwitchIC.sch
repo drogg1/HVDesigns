@@ -250,7 +250,7 @@ P1W
 Text Notes 7650 2700 0    50   ~ 0
 Connects to 50k digipot\nChannel 1
 $Comp
-L conn:CONN_01X02 P8
+L HVTest-rescue:CONN_01X02-conn P8
 U 1 1 585659D2
 P 4300 4100
 F 0 "P8" H 4300 4250 50  0000 C CNN
@@ -331,7 +331,7 @@ F 3 "" H 3150 4100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X03 P21
+L HVTest-rescue:CONN_01X03-conn P21
 U 1 1 588003E0
 P 3600 3300
 F 0 "P21" H 3600 3500 50  0000 C CNN
@@ -353,7 +353,7 @@ F 3 "" H 7750 3850 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conn:TEST_1P RST1
+L HVTest-rescue:TEST_1P-conn RST1
 U 1 1 58803EC0
 P 8300 3750
 F 0 "RST1" H 8300 4020 50  0000 C CNN
@@ -368,7 +368,7 @@ LSB
 Text GLabel 6850 5400 3    60   UnSpc ~ 0
 MSB
 $Comp
-L conn:CONN_01X02 P22
+L HVTest-rescue:CONN_01X02-conn P22
 U 1 1 5884C862
 P 4900 4600
 F 0 "P22" H 4900 4750 50  0000 C CNN
@@ -403,7 +403,7 @@ F 3 "" H 3800 4050 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X02 P16
+L HVTest-rescue:CONN_01X02-conn P16
 U 1 1 5887DD22
 P 7150 5000
 F 0 "P16" H 7150 5150 50  0000 C CNN

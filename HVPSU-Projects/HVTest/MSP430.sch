@@ -53,7 +53,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 3250 8300 3250
 Wire Wire Line
-	6250 3350 8300 3350
+	6250 3350 8150 3350
 $Comp
 L power:GND #PWR031
 U 1 1 58470F5A
@@ -108,10 +108,6 @@ F 3 "" H 3300 4250 50  0000 C CNN
 $EndComp
 Wire Wire Line
 	3300 4100 3300 3850
-Wire Wire Line
-	3300 4400 3300 4500
-Wire Wire Line
-	3300 4900 3300 5000
 $Comp
 L power:+3V3 #PWR033
 U 1 1 58471397
@@ -157,9 +153,9 @@ F 3 "" H 5450 2000 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 1750 5150 1850
+	5150 1750 5150 1800
 Wire Wire Line
-	5150 2150 5150 2300
+	5150 2150 5150 2200
 Wire Wire Line
 	5150 1800 5450 1800
 Wire Wire Line
@@ -181,9 +177,9 @@ SDA
 Text HLabel 7800 3550 2    60   Output ~ 0
 SCL
 Wire Wire Line
-	6250 3450 7800 3450
+	6250 3450 7500 3450
 Wire Wire Line
-	6250 3550 7800 3550
+	6250 3550 7700 3550
 Text HLabel 6500 3950 2    60   Output ~ 0
 PWS0
 Text HLabel 6500 3850 2    60   Output ~ 0
@@ -232,7 +228,7 @@ F 3 "" H 7500 4050 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 Wire Wire Line
-	7500 3950 7500 4050
+	7500 3950 7500 4000
 Wire Wire Line
 	7500 4000 7700 4000
 Wire Wire Line
@@ -245,7 +241,7 @@ Wire Wire Line
 	7500 3650 7500 3450
 Connection ~ 7500 3450
 $Comp
-L conn:CONN_01X04 P20
+L HVTest-rescue:CONN_01X04-conn P20
 U 1 1 588347DF
 P 8500 3300
 F 0 "P20" H 8500 3550 50  0000 C CNN
@@ -300,7 +296,7 @@ F 3 "" H 8150 3550 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8250 2800 8250 3150
+	8250 2800 8250 2850
 Wire Wire Line
 	8250 3150 8300 3150
 Wire Wire Line
@@ -376,7 +372,7 @@ Wire Wire Line
 Wire Wire Line
 	2850 3550 4450 3550
 Wire Wire Line
-	2850 3450 4450 3450
+	2850 3450 3050 3450
 Wire Wire Line
 	3050 3450 3050 3600
 Connection ~ 3050 3450
@@ -389,7 +385,7 @@ Wire Wire Line
 Wire Wire Line
 	4200 4150 4450 4150
 Wire Wire Line
-	6600 4650 6600 4800
+	6600 4650 6600 4750
 Wire Wire Line
 	6600 4050 6600 4350
 Connection ~ 6600 4050
@@ -411,11 +407,37 @@ Wire Wire Line
 Wire Wire Line
 	6250 3750 6500 3750
 Wire Wire Line
-	6250 4050 6800 4050
+	6250 4050 6600 4050
 Wire Wire Line
-	6250 4150 6800 4150
+	6250 4150 6400 4150
 Text GLabel 6800 4250 2    60   UnSpc ~ 0
 RSTIC
 Wire Wire Line
 	6250 4250 6800 4250
+Wire Wire Line
+	5150 1800 5150 1850
+Wire Wire Line
+	5150 2200 5150 2300
+Wire Wire Line
+	7500 4000 7500 4050
+Wire Wire Line
+	7700 3550 7800 3550
+Wire Wire Line
+	7500 3450 7800 3450
+Wire Wire Line
+	8250 2850 8250 3150
+Wire Wire Line
+	8150 3350 8300 3350
+Wire Wire Line
+	3050 3450 4450 3450
+Wire Wire Line
+	6600 4050 6800 4050
+Wire Wire Line
+	6600 4750 6600 4800
+Wire Wire Line
+	6400 4150 6800 4150
+Wire Wire Line
+	3300 4400 3300 4550
+Wire Wire Line
+	3300 4850 3300 5000
 $EndSCHEMATC

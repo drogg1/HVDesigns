@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:/Users/User/Google Drive/IC Research/Clean HV Designs/HVPSU-Projects/RPSU-CW/RPSU-CW.sch</source>
+    <date>1/29/2019 9:47:00 PM</date>
+    <tool>Eeschema 4.0.2-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>RPSU-CW.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD5E57</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>MMBD3004S</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="MMBD3004S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD601B</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>MMBD3004S</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="MMBD3004S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD625A</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD63A8</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD655E</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CD65A4</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>NMOS-DMG3420U</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="NMOS-DMG3420U"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CFBD17</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>CP1</value>
+      <footprint>Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Reflow</footprint>
+      <libsource lib="device" part="CP1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CFBE61</tstamp>
+    </comp>
+    <comp ref="T1">
+      <value>TRANSFO</value>
+      <footprint>HVTest:LPR6235</footprint>
+      <libsource lib="device" part="TRANSFO"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58CFC486</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D05231</tstamp>
+    </comp>
+    <comp ref="D12">
+      <value>MMBD3004S</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="MMBD3004S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D0522B</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D05219</tstamp>
+    </comp>
+    <comp ref="D11">
+      <value>MMBD3004S</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="MMBD3004S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D05213</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D05201</tstamp>
+    </comp>
+    <comp ref="D10">
+      <value>MMBD3004S</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="MMBD3004S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D051FB</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D047C6</tstamp>
+    </comp>
+    <comp ref="D9">
+      <value>MMBD3004S</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="MMBD3004S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D047C0</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D047AE</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>MMBD3004S</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="MMBD3004S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D047A8</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D04794</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>MMBD3004S</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="MMBD3004S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D0478E</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D0477B</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>MMBD3004S</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="MMBD3004S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D04775</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D03D20</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>MMBD3004S</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="MMBD3004S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D03D1A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D03D07</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>MMBD3004S</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="MMBD3004S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D03D01</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D03A5B</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>MMBD3004S</value>
+      <footprint>HVTest:SOT23</footprint>
+      <libsource lib="HVTest" part="MMBD3004S"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D03A55</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D0770A</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D0792B</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D079A7</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D07A24</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D07AAA</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D07EE2</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D07F6A</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D07FF5</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D08087</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>C</value>
+      <footprint>HVTest:HV-1206</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D08116</tstamp>
+    </comp>
+    <comp ref="P2">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A161C61</tstamp>
+    </comp>
+    <comp ref="P1">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A167775</tstamp>
+    </comp>
+    <comp ref="P16">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A16E388</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>1G</value>
+      <footprint>Resistors_SMD:R_2512</footprint>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A170104</tstamp>
+    </comp>
+    <comp ref="P17">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A17F859</tstamp>
+    </comp>
+    <comp ref="P18">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A181DD8</tstamp>
+    </comp>
+    <comp ref="P19">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A181EBF</tstamp>
+    </comp>
+    <comp ref="P20">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A181FBB</tstamp>
+    </comp>
+    <comp ref="P21">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A18259E</tstamp>
+    </comp>
+    <comp ref="P22">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:Pin_Header_Straight_SMT_01x01</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A182684</tstamp>
+    </comp>
+    <comp ref="P23">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A182761</tstamp>
+    </comp>
+    <comp ref="P24">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A18283D</tstamp>
+    </comp>
+    <comp ref="P25">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A182920</tstamp>
+    </comp>
+    <comp ref="P26">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A182A08</tstamp>
+    </comp>
+    <comp ref="P27">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A182B3A</tstamp>
+    </comp>
+    <comp ref="P28">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A182C32</tstamp>
+    </comp>
+    <comp ref="P29">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A1858FA</tstamp>
+    </comp>
+    <comp ref="P30">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A18DE03</tstamp>
+    </comp>
+    <comp ref="P31">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A18DEF3</tstamp>
+    </comp>
+    <comp ref="P33">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A18FA28</tstamp>
+    </comp>
+    <comp ref="P32">
+      <value>CONN_01X01</value>
+      <footprint>HVTest:PHS1x01_Pitch2.54mm_1D1.7P</footprint>
+      <libsource lib="conn" part="CONN_01X01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A18FC22</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>RF_SHIELD_TWO_PIECES</value>
+      <footprint>SEPIC-eval:Laird_Technologies_BMI-S-205-F_38.10x25.40mm</footprint>
+      <libsource lib="HVTest" part="RF_SHIELD_TWO_PIECES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58D08660</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_01X01">
+      <description>Connector 01x01</description>
+      <footprints>
+        <fp>Pin_Header_Straight_1X01</fp>
+        <fp>Pin_Header_Angled_1X01</fp>
+        <fp>Socket_Strip_Straight_1X01</fp>
+        <fp>Socket_Strip_Angled_1X01</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="CP1">
+      <description>Polarised capacitor</description>
+      <footprints>
+        <fp>SMD*_Pol</fp>
+        <fp>c_elec*</fp>
+        <fp>C*elec</fp>
+        <fp>TantalC*</fp>
+        <fp>Elko*</fp>
+        <fp>CP*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HVTest" part="MMBD3004S">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">MMBD3004S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HVTest" part="NMOS-DMG3420U">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">NMOS-DMG3420U</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="passive"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="HVTest" part="RF_SHIELD_TWO_PIECES">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RF_SHIELD_TWO_PIECES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SHIELD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="TRANSFO">
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">TRANSFO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="AA" type="passive"/>
+        <pin num="2" name="AB" type="passive"/>
+        <pin num="3" name="SA" type="passive"/>
+        <pin num="4" name="SB" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="HVTest">
+      <uri>C:\Users\User\Google Drive\IC Research\Clean HV Designs\HVPSU-Projects\RPSU-CW\HVTest.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C12-Pad1)">
+      <node ref="D6" pin="2"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C14" pin="2"/>
+    </net>
+    <net code="2" name="Net-(C16-Pad1)">
+      <node ref="C16" pin="1"/>
+      <node ref="C18" pin="2"/>
+      <node ref="D8" pin="2"/>
+    </net>
+    <net code="3" name="Net-(C18-Pad1)">
+      <node ref="C20" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="D9" pin="2"/>
+    </net>
+    <net code="4" name="Net-(C14-Pad1)">
+      <node ref="C14" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="D7" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C6-Pad1)">
+      <node ref="D3" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C6" pin="1"/>
+    </net>
+    <net code="6" name="Net-(C10-Pad2)">
+      <node ref="C10" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="D4" pin="2"/>
+    </net>
+    <net code="7" name="Net-(C24-Pad1)">
+      <node ref="C24" pin="1"/>
+      <node ref="D12" pin="2"/>
+    </net>
+    <net code="8" name="Net-(C22-Pad1)">
+      <node ref="C24" pin="2"/>
+      <node ref="C22" pin="1"/>
+      <node ref="D11" pin="2"/>
+    </net>
+    <net code="9" name="Net-(C20-Pad1)">
+      <node ref="D10" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="C20" pin="1"/>
+    </net>
+    <net code="10" name="Net-(C10-Pad1)">
+      <node ref="D5" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C12" pin="2"/>
+    </net>
+    <net code="11" name="Net-(C17-Pad1)">
+      <node ref="D9" pin="1"/>
+      <node ref="D8" pin="3"/>
+      <node ref="P24" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C17" pin="1"/>
+    </net>
+    <net code="12" name="Net-(C15-Pad1)">
+      <node ref="C15" pin="1"/>
+      <node ref="P23" pin="1"/>
+      <node ref="C17" pin="2"/>
+      <node ref="D8" pin="1"/>
+      <node ref="D7" pin="3"/>
+    </net>
+    <net code="13" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1"/>
+      <node ref="C15" pin="2"/>
+      <node ref="D6" pin="3"/>
+      <node ref="D7" pin="1"/>
+      <node ref="P22" pin="1"/>
+    </net>
+    <net code="14" name="Net-(C19-Pad1)">
+      <node ref="D10" pin="1"/>
+      <node ref="D9" pin="3"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C19" pin="1"/>
+      <node ref="P25" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C11-Pad2)">
+      <node ref="P20" pin="1"/>
+      <node ref="D5" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="D4" pin="3"/>
+      <node ref="C11" pin="2"/>
+    </net>
+    <net code="16" name="Net-(C11-Pad1)">
+      <node ref="P21" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="D5" pin="3"/>
+    </net>
+    <net code="17" name="Net-(C21-Pad1)">
+      <node ref="D10" pin="3"/>
+      <node ref="D11" pin="1"/>
+      <node ref="P26" pin="1"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C23" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C23-Pad1)">
+      <node ref="C25" pin="2"/>
+      <node ref="D12" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="D11" pin="3"/>
+      <node ref="P27" pin="1"/>
+    </net>
+    <net code="19" name="Net-(C25-Pad1)">
+      <node ref="D12" pin="3"/>
+      <node ref="C25" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="P28" pin="1"/>
+    </net>
+    <net code="20" name="Net-(C7-Pad1)">
+      <node ref="P19" pin="1"/>
+      <node ref="D4" pin="1"/>
+      <node ref="D3" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="21" name="Net-(P16-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="P16" pin="1"/>
+    </net>
+    <net code="22" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1"/>
+      <node ref="P1" pin="1"/>
+      <node ref="T1" pin="1"/>
+    </net>
+    <net code="23" name="Net-(C5-Pad1)">
+      <node ref="D2" pin="3"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="D3" pin="1"/>
+      <node ref="P18" pin="1"/>
+    </net>
+    <net code="24" name="Net-(C4-Pad1)">
+      <node ref="D2" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C6" pin="2"/>
+    </net>
+    <net code="25" name="Net-(C2-Pad1)">
+      <node ref="D1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C4" pin="2"/>
+    </net>
+    <net code="26" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2"/>
+      <node ref="T1" pin="4"/>
+    </net>
+    <net code="27" name="GND">
+      <node ref="C1" pin="2"/>
+      <node ref="P30" pin="1"/>
+      <node ref="P33" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="P32" pin="1"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="P29" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="P31" pin="1"/>
+      <node ref="T1" pin="3"/>
+    </net>
+    <net code="28" name="Net-(Q1-Pad2)">
+      <node ref="T1" pin="2"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="29" name="Net-(C3-Pad1)">
+      <node ref="D1" pin="3"/>
+      <node ref="D2" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="P17" pin="1"/>
+    </net>
+    <net code="30" name="Net-(P2-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="P2" pin="1"/>
+    </net>
+  </nets>
+</export>

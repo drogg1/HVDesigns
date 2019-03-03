@@ -1,0 +1,35 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,,Battery,BT1,Battery,KEY1027-ND-rev2,1,
+2,Unpolarized capacitor,C_Small,C52 C54 C56 C58,0.1uF,C_0402_NoSilk,4,
+3,Unpolarized capacitor,C_Small,C1 C63 C64 C65,10uF,C_1206,4,
+4,Unpolarized capacitor,C_Small,C57,1nF,C_0402_NoSilk,1,
+5,Unpolarized capacitor,C_Small,C50 C51 C53 C59 C60 C61 C62,1uF,C_0603,7,
+6,Unpolarized capacitor,C_Small,C55,3.3nF,C_0402_NoSilk,1,
+7,Connector 01x01,CONN_01X01,P2 P3 P4 P5 P6 P7 P8,CONN_01X01,PHS1x01_Pitch2.54mm_1D1.7P,7,
+8,Connector 01x04,CONN_01X04,P1,CONN_01X04,SM04B-SRSS-TB(LF)(SN),1,
+9,Resistor,R,R16 R17,10,R_0402_NoSilk,2,
+10,Resistor,R,R1 R18 R19 R20 R22 R23,1M,R_0402_NoSilk,6,
+11,Resistor,R,R15,2M,R_0402_NoSilk,1,
+12,Resistor,R,R21,33M,R_0402_NoSilk,1,
+13,Resistor,R,R14,560k,R_0402_NoSilk,1,
+14,,POT-RESCUE-RPSU-top,RV1,1M,EVM3Y-POT,1,
+15,,POT-RESCUE-RPSU-top,RV2 RV3,20k,EVM3Y-POT,2,
+16,"3 position switch, SP3T",SP3T,SW1,SP3T,PCM13SMTR,1,
+17,,SN74AUP3G17,U2,SN74AUP3G17,8-VFSOP,1,
+18,,TPS78225DDCR,U3,TPS78225DDCR,TSOT-23-5,1,
+19,,switch_ic4/5,U1,switch_ic4/5,QFN-20-1EP_4x4mm_Pitch0.5mm,1,
+
+
+
+
+
+Component Groups:,19
+Component Count:,44
+Fitted Components:,44
+Number of PCBs:,1
+Total components:,44
+Schematic Version:,
+Schematic Date:,
+BoM Date:,1/29/2019 10:01:43 PM
+Schematic Source:,C:/Users/User/Google Drive/IC Research/Clean HV Designs/HVPSU-Projects/RPSU-top/RPSU-top.sch
+KiCad Version:,Eeschema 4.0.2-stable

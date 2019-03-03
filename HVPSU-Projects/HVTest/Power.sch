@@ -163,7 +163,7 @@ $EndComp
 Wire Wire Line
 	6650 4000 6650 3850
 $Comp
-L conn:CONN_01X03 P2
+L HVTest-rescue:CONN_01X03-conn P2
 U 1 1 5853E594
 P 9450 3900
 F 0 "P2" H 9450 4100 50  0000 C CNN
@@ -174,7 +174,7 @@ F 3 "" H 9450 3900 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X01 P5
+L HVTest-rescue:CONN_01X01-conn P5
 U 1 1 5853E987
 P 9550 3900
 F 0 "P5" H 9550 4000 50  0000 C CNN
@@ -233,7 +233,7 @@ F 3 "" H 9850 5600 50  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L conn:CONN_01X03 P3
+L HVTest-rescue:CONN_01X03-conn P3
 U 1 1 5853F361
 P 9450 4750
 F 0 "P3" H 9450 4950 50  0000 C CNN
@@ -244,7 +244,7 @@ F 3 "" H 9450 4750 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X01 P6
+L HVTest-rescue:CONN_01X01-conn P6
 U 1 1 5853F3A5
 P 9550 4750
 F 0 "P6" H 9550 4850 50  0000 C CNN
@@ -263,7 +263,7 @@ Wire Wire Line
 Wire Wire Line
 	9250 4650 9150 4650
 $Comp
-L conn:CONN_01X03 P4
+L HVTest-rescue:CONN_01X03-conn P4
 U 1 1 5853F666
 P 9450 5600
 F 0 "P4" H 9450 5800 50  0000 C CNN
@@ -274,7 +274,7 @@ F 3 "" H 9450 5600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X01 P7
+L HVTest-rescue:CONN_01X01-conn P7
 U 1 1 5853F6AC
 P 9550 5600
 F 0 "P7" H 9550 5700 50  0000 C CNN
@@ -313,7 +313,7 @@ Switch IC Supply
 Text Notes 8650 5250 0    50   ~ 0
 CW Chain Supply
 $Comp
-L conn:CONN_01X02 P1
+L HVTest-rescue:CONN_01X02-conn P1
 U 1 1 585433B4
 P 7400 4000
 F 0 "P1" H 7400 4150 50  0000 C CNN

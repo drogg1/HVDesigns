@@ -317,7 +317,7 @@ Analog switch to select\nintegration capacitor
 Text Notes 1950 2500 0    60   ~ 0
 Analog switch to select\npulse width timing cap
 $Comp
-L conn:CONN_01X02 P11
+L HVTest-rescue:CONN_01X02-conn P11
 U 1 1 58539293
 P 9000 4600
 F 0 "P11" H 9000 4750 50  0000 C CNN
@@ -328,7 +328,7 @@ F 3 "" H 9000 4600 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X02 P12
+L HVTest-rescue:CONN_01X02-conn P12
 U 1 1 585395C9
 P 9450 4350
 F 0 "P12" H 9450 4500 50  0000 C CNN
@@ -481,7 +481,7 @@ Wire Wire Line
 	8650 4550 8800 4550
 Connection ~ 8650 4550
 $Comp
-L conn:CONN_01X02 P9
+L HVTest-rescue:CONN_01X02-conn P9
 U 1 1 5853AA87
 P 3850 1350
 F 0 "P9" H 3850 1500 50  0000 C CNN
@@ -492,7 +492,7 @@ F 3 "" H 3850 1350 50  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L conn:CONN_01X02 P10
+L HVTest-rescue:CONN_01X02-conn P10
 U 1 1 5853BB24
 P 3750 4600
 F 0 "P10" H 3750 4750 50  0000 C CNN

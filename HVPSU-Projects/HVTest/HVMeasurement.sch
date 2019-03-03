@@ -153,7 +153,7 @@ F 3 "" H 5550 3150 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L conn:CONN_01X02 P15
+L HVTest-rescue:CONN_01X02-conn P15
 U 1 1 587A31B3
 P 6350 4100
 F 0 "P15" H 6350 4250 50  0000 C CNN
@@ -358,9 +358,11 @@ Text Notes 5700 2600 0    50   ~ 0
 Text Notes 3000 3100 0    60   ~ 0
 Connect 100G Res
 $Comp
-L conn:CONN_01X01 P18
+L HVTest-rescue:CONN_01X01-conn P18
 U 1 1 5889AE54
 P 4050 3050
+AR Path="/5889AE54" Ref="P18"  Part="1" 
+AR Path="/5879B204/5889AE54" Ref="P18"  Part="1" 
 F 0 "P18" H 4050 3150 50  0000 C CNN
 F 1 "CONN_01X01" V 4150 3050 50  0000 C CNN
 F 2 "HVTest:Pin_Header_Straight_1x01" H 4050 3050 50  0001 C CNN

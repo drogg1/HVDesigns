@@ -1,0 +1,48 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,,Battery,BT1,Battery,KEY1027-ND,1,
+2,Unpolarized capacitor,C_Small,C1 C2 C3 C4 C5 C6 C7 C8 C9 C10 C11 C12 C13 C14 C15 C16 C17 C18 C19 C20 C21 C22 C23 C24,0.1uF,HV-1206,24,
+3,Unpolarized capacitor,C_Small,C25 C26 C27 C28 C29 C30 C31 C32 C33 C34 C35 C36 C37 C38 C39 C40 C41 C42 C43 C44 C45 C46 C47 C48,0.1uF,C_1812,24,
+4,Unpolarized capacitor,C_Small,C52 C54 C56 C58 C66,0.1uF,C_0402_NoSilk,5,
+5,Polarised capacitor,CP1_Small,C49,100uF,CP_Tantalum_Case-C_EIA-6032-28_Reflow,1,
+6,Unpolarized capacitor,C_Small,C63 C64 C65,10uF,C_1206,3,
+7,Unpolarized capacitor,C_Small,C57,1nF,C_0402_NoSilk,1,
+8,Unpolarized capacitor,C_Small,C50 C51 C53 C59 C60 C61 C62,1uF,C_0603,7,
+9,Unpolarized capacitor,C_Small,C55,3.3nF,C_0402_NoSilk,1,
+10,,MMBD3004S,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12,MMBD3004S,SOT23,12,
+11,,HIROSE-DF12,J2,HIROSE-DF12,CheetahSocket,1,
+12,,RF_SHIELD_TWO_PIECES,J1,RF_SHIELD_TWO_PIECES,Laird_Technologies_BMI-S-205-F_38.10x25.40mm,1,
+13,Inductor,L_Small,L1,10nH,R_0402_NoSilk,1,
+14,Connector 01x04,CONN_01X04,P1,CONN_01X04,SM04B-SRSS-TB(LF)(SN),1,
+15,Connector 01x10,CONN_01X10,P2,CONN_01X10,Pin_Header_Straight_1x10_Pitch2.54mm-narrowforhv,1,
+16,,NMOS-DMG3420U,Q1,NMOS-DMG3420U,SOT23-mosfet,1,
+17,Resistor,R_Small,R26 R27,0,R_0603,2,
+18,Resistor,R,R16 R17,10,R_0402_NoSilk,2,
+19,Resistor,R_Small,R24,1G,R_2512_HandSoldering,1,
+20,Resistor,R_Small,R1 R18 R19 R20 R22 R23,1M,R_0402_NoSilk,6,
+21,Resistor,R,R2 R3 R4 R5 R6 R7 R8 R9 R10 R11 R12 R13,1M,R_0603,12,
+22,Resistor,R,R15,2M,R_0402_NoSilk,1,
+23,Resistor,R,R21,33M,R_0402_NoSilk,1,
+24,Resistor,R,R14,560k,R_0402_NoSilk,1,
+25,,POT-RESCUE-CsIPSU,RV1,1M,EVM3Y-POT,1,
+26,,POT-RESCUE-CsIPSU,RV2 RV3,20k,EVM3Y-POT,2,
+27,,SP4T,S1,SP4T,CUS-14TB,1,
+28,,TRANSFO,T1,TRANSFO,LPR6235,1,
+29,,SN74AUP3G17,U2,SN74AUP3G17,8-VFSOP,1,
+30,,TPS78225DDCR,U3,TPS78225DDCR,TSOT-23-5,1,
+31,,switch_ic4/5,U1,switch_ic4/5,QFN-20-1EP_4x4mm_Pitch0.5mm,1,
+32,point,TEST_1P,W2 W3 W4 W5 W6 W7,TEST_1P,Measurement_Point_Round-SMD-Pad_Small,6,
+
+
+
+
+
+Component Groups:,32
+Component Count:,125
+Fitted Components:,125
+Number of PCBs:,1
+Total components:,125
+Schematic Version:,
+Schematic Date:,
+BoM Date:,1/29/2019 9:42:36 PM
+Schematic Source:,C:/Users/User/Google Drive/IC Research/Clean HV Designs/HVPSU-Projects/CsIPSUV2/CsIPSU.sch
+KiCad Version:,Eeschema 4.0.2-stable

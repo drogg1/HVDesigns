@@ -238,7 +238,7 @@ Wire Wire Line
 	5650 3000 5500 3000
 Connection ~ 5500 3000
 $Comp
-L conn:TEST_1P W1
+L HVTest-rescue:TEST_1P-conn W1
 U 1 1 5884B643
 P 6700 3600
 F 0 "W1" H 6700 3870 50  0000 C CNN

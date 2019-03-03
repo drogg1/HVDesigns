@@ -303,5 +303,5 @@ U.FL Signal Out
 Text Notes 7025 6850 0    60   ~ 0
 Socket board that fits onto R11265U PMT pins.  Filtered dynode voltages are fed to \nboard from PSU board.  Routes voltages to appropriate PMT pins and provides a \nU.FL signal output.
 Text Notes 8200 5775 0    60   ~ 0
-Voltage Tapering Scheme\n\n 1 2 3 4 5 6 7 8 9 10 11 12 P\n  2 2 1 1 1 1 1 2 0   0  0  0 
+Voltage Tapering Scheme\n\n   1 2 3 4 5 6 7 8 9 10 11 12 P\n  2 2 1 1 1 1 1 1 2 0  0  0  0
 $EndSCHEMATC

@@ -254,14 +254,14 @@ $EndComp
 Wire Wire Line
 	4050 3900 4050 3800
 Wire Wire Line
-	4050 3250 4050 3500
+	4050 3250 4050 3400
 Wire Wire Line
 	4050 3400 4500 3400
 Connection ~ 4050 3400
 Wire Wire Line
 	4400 4800 4400 4850
 Wire Wire Line
-	4400 3900 4400 4500
+	4400 3900 4400 4400
 Wire Wire Line
 	4400 3900 4500 3900
 Wire Wire Line
@@ -272,21 +272,21 @@ Wire Wire Line
 Wire Wire Line
 	5600 4400 5600 3650
 Wire Wire Line
-	5500 3650 5700 3650
+	5500 3650 5600 3650
 Wire Wire Line
 	5000 4050 5000 4100
 Wire Wire Line
-	5000 2900 5000 3250
+	5000 2900 5000 2950
 Connection ~ 5600 3650
 Wire Wire Line
-	6000 3650 6800 3650
+	6000 3650 6100 3650
 Wire Wire Line
-	5250 3300 5550 3300
+	5250 3300 5400 3300
 Wire Wire Line
 	5400 3300 5400 3350
 Connection ~ 5400 3300
 Wire Wire Line
-	5000 2950 5550 2950
+	5000 2950 5250 2950
 Wire Wire Line
 	5550 2950 5550 3000
 Wire Wire Line
@@ -305,20 +305,20 @@ Wire Wire Line
 	6700 3650 6700 3750
 Connection ~ 6700 3650
 Wire Wire Line
-	6700 4050 6700 4250
+	6700 4050 6700 4200
 Wire Wire Line
 	6650 3300 6650 3350
 Wire Wire Line
-	6650 3350 6950 3350
+	6650 3350 6800 3350
 Wire Wire Line
 	6950 3350 6950 3300
 Wire Wire Line
 	6800 3350 6800 3400
 Connection ~ 6800 3350
 Wire Wire Line
-	6650 2900 6650 3000
+	6650 2900 6650 2950
 Wire Wire Line
-	6650 2950 7700 2950
+	6650 2950 6950 2950
 Wire Wire Line
 	7700 2950 7700 3150
 Wire Wire Line
@@ -338,7 +338,7 @@ SDA
 Text HLabel 8350 3600 2    60   BiDi ~ 0
 SCL
 Wire Wire Line
-	6700 4200 7750 4200
+	6700 4200 7350 4200
 Wire Wire Line
 	7750 4200 7750 4150
 Connection ~ 6700 4200
@@ -368,4 +368,38 @@ F 3 "" H 4050 3050 50  0000 C CNN
 	1    4050 3050
 	0    -1   -1   0   
 $EndComp
+Wire Wire Line
+	4050 3400 4050 3500
+Wire Wire Line
+	4400 4400 4400 4500
+Wire Wire Line
+	5600 3650 5700 3650
+Wire Wire Line
+	5400 3300 5550 3300
+Wire Wire Line
+	5250 2950 5550 2950
+Wire Wire Line
+	6100 3650 6700 3650
+Wire Wire Line
+	6700 3650 6800 3650
+Wire Wire Line
+	6800 3350 6950 3350
+Wire Wire Line
+	7350 2950 7700 2950
+Wire Wire Line
+	6950 2950 7350 2950
+Wire Wire Line
+	5000 2950 5000 3250
+Wire Wire Line
+	6650 2950 6650 3000
+Wire Wire Line
+	6700 4200 6700 4250
+Wire Wire Line
+	7650 4200 7750 4200
+Wire Wire Line
+	7550 4200 7650 4200
+Wire Wire Line
+	7350 4200 7550 4200
+Text Notes 7100 6800 0    60   ~ 0
+Allows measurement of final HV stage with minimal\nloading (1000V/100Gohm = 10 nA => 10 uW)
 $EndSCHEMATC

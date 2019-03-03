@@ -1,0 +1,9 @@
+Ro = 288000;    %DAC output impedance
+VREF = 1.2;     %Reference voltage, DAC maximum
+HVdes = 1200;   %Desired maximum high voltage
+RFB = 1e9;      %Feedback resistor from last stage
+RMSB = ((VREF*RFB)/HVdes) - Ro %Value for the MSB resistor to enable HVdes
+RMSB = 715e3;                   %Set MSB resistor to chosen value
+HVmax = (VREF*RFB)/(Ro + RMSB)  %Evaluate max HV to ensure calculation correct
+Vmin = VREF - ((HVmax/RFB)*RMSB)    %min DAC output, static offset
+LSB = (VREF - Vmin)/64          %LSB voltage step

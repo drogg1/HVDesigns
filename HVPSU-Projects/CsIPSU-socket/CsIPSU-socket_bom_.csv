@@ -1,0 +1,24 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet
+1,Unpolarized capacitor,C_Small,C1,0.1uF,C_1812,1,
+2,Unpolarized capacitor,C_Small,C2,0.1uF,C_0603_HandSoldering,1,
+3,Unpolarized capacitor,C_Small,C3,3.3nF,C_0603_HandSoldering,1,
+4,,UFL-CONN,J1,UFL-CONN,U.FL-R-SMT,1,
+5,Connector 01x10,CONN_01X10,P1,CONN_01X10,Pin_Header_Straight_1x10_Pitch2.54mm-narrowforhv,1,
+6,Resistor,R,R1,1M,R_0603_HandSoldering,1,
+7,Resistor,R,R2,2M,R_0603_HandSoldering,1,
+8,,R11265U-PMT-socket,U1,R11265U-PMT-socket,R11265U-PMT-socket,1,
+
+
+
+
+
+Component Groups:,8
+Component Count:,8
+Fitted Components:,8
+Number of PCBs:,1
+Total components:,8
+Schematic Version:,
+Schematic Date:,
+BoM Date:,2/4/2019 10:07:08 PM
+Schematic Source:,C:/Users/User/Google Drive/IC Research/Clean HV Designs/HVPSU-Projects/CsIPSU-socket/CsIPSU-socket.sch
+KiCad Version:,Eeschema 4.0.2-stable

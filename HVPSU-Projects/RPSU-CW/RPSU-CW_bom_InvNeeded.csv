@@ -1,0 +1,25 @@
+Component,Description,Part,References,Value,Footprint,Quantity Per PCB,Datasheet,Needed for,2,Inv,,Need to Order
+1,Unpolarized capacitor,C,C2 C3 C4 C5 C6 C7 C8 C9 C10 C11 C12 C13 C14 C15 C16 C17 C18 C19 C20 C21 C22 C23 C24 C25,C,HV-1206,24,,48,,158,,-110
+2,Polarised capacitor,CP1,C1,CP1,CP_Tantalum_Case-C_EIA-6032-28_Reflow,1,,2,,9,,-7
+3,,MMBD3004S,D1 D2 D3 D4 D5 D6 D7 D8 D9 D10 D11 D12,MMBD3004S,SOT23,12,,24,,77,,-53
+4,,RF_SHIELD_TWO_PIECES,J1,RF_SHIELD_TWO_PIECES,Laird_Technologies_BMI-S-205-F_38.10x25.40mm,1,,2,,6,,-4
+5,Connector 01x01,CONN_01X01,P1 P2 P16 P17 P18 P19 P20 P21 P23 P24 P25 P26 P27 P28 P29 P30 P31 P32 P33,CONN_01X01,PHS1x01_Pitch2.54mm_1D1.7P,19,,38,,200,,-162
+6,Connector 01x01,CONN_01X01,P22,CONN_01X01,Pin_Header_Straight_SMT_01x01,1,,2,,200,,-198
+7,,NMOS-DMG3420U,Q1,NMOS-DMG3420U,SOT23,1,,2,,144,,-142
+8,Resistor,R,R2,1G,R_2512,1,,2,,7,,-5
+9,,TRANSFO,T1,TRANSFO,LPR6235,1,,2,,77,,-75
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Component Groups:,9,,,,,,,,,,,
+Component Count:,61,,,,,,,,,,,
+Fitted Components:,61,,,,,,,,,,,
+Number of PCBs:,1,,,,,,,,,,,
+Total components:,61,,,,,,,,,,,
+Schematic Version:,,,,,,,,,,,,
+Schematic Date:,,,,,,,,,,,,
+BoM Date:,1/29/2019 21:47,,,,,,,,,,,
+Schematic Source:,C:/Users/User/Google Drive/IC Research/Clean HV Designs/HVPSU-Projects/RPSU-CW/RPSU-CW.sch,,,,,,,,,,,
+KiCad Version:,Eeschema 4.0.2-stable,,,,,,,,,,,
