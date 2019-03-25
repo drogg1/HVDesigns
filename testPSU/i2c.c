@@ -6,6 +6,7 @@
  */
 
 #include "i2c.h"
+#include "board.h"
 int i2c_init(void)
 {
 	//Hold in reset
@@ -34,112 +35,117 @@ int i2c_transfer(const struct i2c_device *dev, struct i2c_data *data)
 	/* Set the slave device address */
 	UCB0I2CSA = dev->address;
 
-	/* Transmit data if there is any */
-	if(data->tx_len > 0)
+	/* Transmit data is there is any */
+	if (data->tx_len > 0)
 	{
-		err = _transmit(dev, (const uint8_t *) data->tx_buf, data->rx_len);
+		err = _transmit(dev, (const uint8_t *) data->tx_buf, data->tx_len);
 	}
 
-	/* Receive data if there is any */
-	if((err == 0) && (data->rx_len > 0))
+	/* Receive data is there is any */
+	if ((err == 0) && (data->rx_len > 0))
 	{
 		err = _receive(dev, (uint8_t *) data->rx_buf, data->rx_len);
-	}
-	else
+	} else
 	{
-		/* No bytes to receive, send stop condition */
+		/* No bytes to receive send the stop condition */
 		UCB0CTL1 |= UCTXSTP;
 	}
+
 	return err;
 }
 
 static int _transmit(const struct i2c_device *dev, const uint8_t *buf, size_t nbytes)
 {
-	int err = 0;
+    int err = 0;
 
-	/* Send start condition */
-	UCB0CTL1 |= UCTR | UCTXSTT;
+    /* Send the start condition */
+    UCB0CTL1 |= UCTR | UCTXSTT;
 
-	/* Wait for start condition to be sent and ready to transmit interrupt */
-	while((UCB0CTL1 & UCTXSTT) && ((IFG2 & UCB0TXIFG) == 0));
+    /* Wait for the start condition to be sent and ready to transmit interrupt */
+    while (((IFG2 & UCB0TXIFG) == 0)&&(UCB0CTL1 & UCTXSTT));
 
-	/* Check for ACK */
-	err = _check_ack(dev);
+    /* Check for ACK */
+    err = _check_ack(dev);
 
-	/* If no error and bytes left to send, transmit data */
-	while((err == 0) && (nbytes > 0))
-	{
-		UCB0TXBUF = *buf;	//Load data in buffer
-		while ((IFG2 & UCB0TXIFG) == 0)	//Wait for ACK
-		{
-			err = _check_ack(dev);
-			if(err < 0)
-			{
-				//If NACK, break
-				break;
-			}
-		}
-		buf++;
-		nbytes--;
-	}
-	return err;
+    /* If no error and bytes left to send, transmit the data */
+    while ((err == 0) && (nbytes > 0))
+    {
+        UCB0TXBUF = *buf;
+        while ((IFG2 & UCB0TXIFG) == 0)
+        {
+            err = _check_ack(dev);
+            if (err < 0)
+            {
+                break;
+            }
+        }
+        buf++;
+        nbytes--;
+    }
+
+    return err;
 }
 
 static int _receive(const struct i2c_device *dev, uint8_t *buf, size_t nbytes)
 {
-	int err = 0;
+    int err = 0;
 
-	/* Send start condition */
-	UCB0CTL1 &= ~UCTR;
-	UCB0CTL1 |= UCTXSTT;
+    /* Send the start and wait */
+    UCB0CTL1 &= ~UCTR;
+    UCB0CTL1 |= UCTXSTT;
 
-	/* Wait for the start condition to be sent*/
-	while(UCB0CTL1 & UCTXSTT);
+    /* Wait for the start condition to be sent */
+    while (UCB0CTL1 & UCTXSTT);
 
-	/* If only one byte to receive, set stop bit as soon as start condition has been sent */
-	if(nbytes == 1)
-	{
-		UCB0CTL1 |= UCTXSTP;
-	}
+    /*
+     * If there is only one byte to receive, then set the stop
+     * bit as soon as start condition has been sent
+     */
+    if (nbytes == 1)
+    {
+        UCB0CTL1 |= UCTXSTP;
+    }
 
-	/* Chekc for ACK */
-	err = _check_ack(dev);
+    /* Check for ACK */
+    err = _check_ack(dev);
 
-	/* If no error and bytes left to receive, receive rest */
-	while((err == 0) && (nbytes > 0))
-	{
-		/* Wait for data */
-		while((IFG2 & UCB0RXIFG) == 0);
+    /* If no error and bytes left to receive, receive the data */
+    while ((err == 0) && (nbytes > 0))
+    {
+        /* Wait for the data */
+        while ((IFG2 & UCB0RXIFG) == 0);
 
-		*buf = UCB0RXBUF;	//Stuff in buffer
-		buf++;	//Increment buffer pointer
-		nbytes--;	//Update num bytes left
+        *buf = UCB0RXBUF;
+        buf++;
+        nbytes--;
 
-		/* Again, if only one byte elft to receive,
-		 * send stop condition
-		 */
-		if(nbytes == 1)
-		{
-			UCB0CTL1 |= UCTXSTP;
-		}
-	}
-	return err;
+        /*
+         * If there is only one byte left to receive
+         * send the stop condition
+         */
+        if (nbytes == 1)
+        {
+            UCB0CTL1 |= UCTXSTP;
+        }
+    }
+
+    return err;
 }
 static int _check_ack(const struct i2c_device *dev)
 {
-	int err = 0;
+    int err = 0;
 
-	/* Check for ACK by seeing if received a NACK*/
-	if(UCB0STAT & UCNACKIFG)
-	{
-		/* Stop the transmission */
-		UCB0CTL1 |= UCTXSTP;
+    /* Check for ACK */
+    if (UCB0STAT & UCNACKIFG) {
+        /* Stop the I2C transmission */
+        UCB0CTL1 |= UCTXSTP;
 
-		/* Clear the interrupt flag */
-		UCB0STAT &= ~UCNACKIFG;
+        /* Clear the interrupt flag */
+        UCB0STAT &= ~UCNACKIFG;
 
-		/* Set the error code */
-		err = -1;
-	}
-	return err;
+        /* Set the error code */
+        err = -1;
+    }
+
+    return err;
 }

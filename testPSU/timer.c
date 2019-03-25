@@ -11,16 +11,18 @@
 
 #define TIMER_RESOLUTION_MS 1
 
+static volatile uint16_t _timer_tick = 0;
+
 /**
  * Initializes timer 1
  */
 int timer_init(void)
 {
-	/* Set timer to use the ACLK, clock divider 8, up-mode to CCR0 */
+	/* Set timer to use the SMCLK, clock divider 8, up-mode to CCR0 */
 	TA1CTL = TASSEL_2 | ID_3 | MC_1;
 
 	/* TA1CCR0 set to the interval for the desired resolution based on 8MHz/8 SMCLK */
-	TA1CCR0 = 1000;//(1000*TIMER_RESOLUTION_MS) - 1;
+	TA1CCR0 = (1000*TIMER_RESOLUTION_MS) - 1;
 
 	/* Enable CCIE interrupt */
 	TA1CCTL0 = CCIE;
@@ -34,10 +36,10 @@ int timer_init(void)
 void delay(uint16_t ticks)
 {
 	_timer_tick = 0;
-	if(ticks < 100)
+	/*if(ticks < 100)
 	{
 		ticks = 100;
-	}
+	}*/
 	while(_timer_tick < ticks);
 }
 

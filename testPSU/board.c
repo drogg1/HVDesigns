@@ -14,6 +14,7 @@
 #include "icDAC.h"
 #include "hvmeas.h"
 #include <msp430.h>
+#include "elecLoad.h"
 
 /**
 * brief Initialize all board dependant functionality
@@ -61,8 +62,9 @@ int board_init(void)
     //Config P1.1(RXD) and P1.2(TXD) for UART
     P1SEL |= BIT1 + BIT2;	//UCA0RXD, UCA0TXD
 	P1SEL2 |= BIT1 + BIT2;
-    P1DIR |= BIT1 + BIT2;	//outputs
-    P1OUT &= ~(BIT1 + BIT2);	//cleared
+    P1DIR |= BIT2;	//outputs
+    P1OUT &= ~(BIT2);	//cleared
+    P1REN  |= 0x02;
 
     uart_config_t config;
     config.baud = 9600;
@@ -74,7 +76,7 @@ int board_init(void)
 
     /* I2C Setup */
 
-    //Config P1.6 and P1.7 for I2C
+    //Config P1.6 (SCL) and P1.7 (SDA) for I2C
     P1SEL |= BIT6 + BIT7;
     P1SEL2 |= BIT6 + BIT7;
 
@@ -84,7 +86,10 @@ int board_init(void)
     }
 
     /* HV Measurement Setup */
-    //hvmeas_init();
+    hvmeas_init();
+
+    /* Electronic Load Setup */
+    elecLoad_init();
 
     /* Global interrupt enable */
     __enable_interrupt();		//Needed for blocking delays in following icDac code
@@ -94,7 +99,7 @@ int board_init(void)
    	P2DIR |= BIT0;
     icDAC_init();
 
-	uart_puts("Board setup complete.  Enabling interrupts and watchdog and returning to main.\n");
+	uart_puts("Board setup complete.  Enabling interrupts and returning to main.\n");
 
     //watchdog_enable();
 

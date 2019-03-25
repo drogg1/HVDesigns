@@ -19,6 +19,7 @@ board.obj: ../uart.h
 board.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/stdio.h
 board.obj: ../icDAC.h
 board.obj: ../hvmeas.h
+board.obj: ../elecLoad.h
 
 ../board.c: 
 ../watchdog.h: 
@@ -39,3 +40,4 @@ C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/stdarg.h:
 C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/stdio.h: 
 ../icDAC.h: 
 ../hvmeas.h: 
+../elecLoad.h: 

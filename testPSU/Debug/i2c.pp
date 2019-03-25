@@ -11,6 +11,7 @@ i2c.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/intrinsics_legac
 i2c.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/stdio.h
 i2c.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/linkage.h
 i2c.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/stdarg.h
+i2c.obj: ../board.h
 
 ../i2c.c: 
 ../i2c.h: 
@@ -23,3 +24,4 @@ C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/intrinsics_legacy_undefs.
 C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/stdio.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/linkage.h: 
 C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/stdarg.h: 
+../board.h: 

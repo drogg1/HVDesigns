@@ -11,10 +11,18 @@
 #include <stdint.h>
 #include "defines.h"
 
+#define RX_BUF_SIZE 32
+#define RX_BUF_MASK 0x1F
+
 const struct baud_value baud_tbl[] =
 {
 		{9600, 109, 0 , 0x2}
 };
+
+static volatile uint8_t rxBufIn;
+static volatile uint8_t rxBufOut;
+static uint8_t rxBuf[RX_BUF_SIZE];
+static volatile uint8_t entries;
 
 int uart_init(uart_config_t *config)
 {
@@ -23,6 +31,9 @@ int uart_init(uart_config_t *config)
 	/* USCI should be in reset before configuring - only configure once */
 	if(UCA0CTL1 & UCSWRST)
 	{
+		rxBufIn = 0;
+		rxBufOut = 0;
+		entries= 0;
 		//size_t i;
 
 		//8N1 UART mode
@@ -57,6 +68,7 @@ int uart_init(uart_config_t *config)
 
 		// Enable the peripheral
 		UCA0CTL1 &= ~UCSWRST;
+		//IE2 |= UCA0RXIE;
 		status = 0;
 	}
 	return status;
@@ -65,11 +77,8 @@ int uart_init(uart_config_t *config)
 /* Get one character or return -1 */
 int uart_getchar(void)
 {
-	int chr = -1;
-	if(IFG2 & UCA0RXIFG)
-	{
-		chr = UCA0RXBUF;
-	}
+	int chr = rxBuf[rxBufOut++];
+	rxBufOut &= RX_BUF_MASK;
 	return chr;
 }
 
@@ -113,4 +122,15 @@ int uart_puts(const char *str)
 	}
 	return status;
 }
-
+//UART Receive ISR
+__attribute__((interrupt(USCIAB0RX_VECTOR))) void USCI0RX_ISR(void)
+{
+	///if(IFG2 & UCA0RXIFG)
+	//{
+		entries++;
+		rxBuf[rxBufIn++] = UCA0RXBUF;
+		rxBufIn &= RX_BUF_MASK;
+		//IFG2 &= ~UCA0RXIFG;
+		__bic_SR_register_on_exit(LPM0_bits);
+	//}
+}

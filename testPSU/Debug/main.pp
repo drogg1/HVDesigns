@@ -21,6 +21,7 @@ main.obj: C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/stdio.h
 main.obj: ../watchdog.h
 main.obj: ../icDAC.h
 main.obj: ../hvmeas.h
+main.obj: ../elecLoad.h
 
 ../main.c: 
 C:/ti/ccsv6/ccs_base/msp430/include/msp430.h: 
@@ -43,3 +44,4 @@ C:/ti/ccsv6/tools/compiler/ti-cgt-msp430_4.4.7/include/stdio.h:
 ../watchdog.h: 
 ../icDAC.h: 
 ../hvmeas.h: 
+../elecLoad.h: 

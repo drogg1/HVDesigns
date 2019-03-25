@@ -50,9 +50,11 @@ int hvmeas_init(void)
 	MCP3421.address = 0b01101000;
 
 	write_cmd[0] = OC | S_3 | G_0;	//continuous sampling, 3.75 sps (18bit), 1 V/V
+	//0b00011100
 
 	data.tx_buf = write_cmd;
-	data.tx_len = ARRAY_SIZE(write_cmd);
+	data.tx_len = 1;
+	data.rx_len = 0;
 
 	err = i2c_transfer(&MCP3421, &data);
 
@@ -66,17 +68,21 @@ uint32_t readHVMeasADC()
 	struct i2c_device MCP3421;
 	struct i2c_data data;
 	uint8_t rx_data[4];
+	uint32_t value = 0;
+
+
+
+	data.tx_len = 0;
+	data.rx_len = 4;
+	data.rx_buf = rx_data;
 
 	MCP3421.address = 0b01101000;
-
-	data.rx_len = ARRAY_SIZE(rx_data);
-	data.rx_buf = (uint8_t *) rx_data;
 
 	err = i2c_transfer(&MCP3421, &data);
 
 	if(err == 0)
 	{
-		uint32_t value = (((uint32_t)rx_data[0] & 0x3)<<16)|((uint32_t)rx_data[1]<<8)|rx_data[2];
+		value = (((uint32_t)rx_data[0] & 0x3)<<16)|((uint32_t)rx_data[1]<<8)|rx_data[2];
 		return value;
 	}
 	else

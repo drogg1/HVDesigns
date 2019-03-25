@@ -11,4 +11,5 @@
 	<createSlaveProjects value=""/>
 	<templateProperties value="id=com.ti.common.project.core.emptyProjectWithMainTemplate_msp430,"/>
 	<isTargetManual value="false"/>
+	<origin value="C:/Users/User/Google Drive/IC Research/Clean HV Designs/testPSU"/>
 </projectOptions>

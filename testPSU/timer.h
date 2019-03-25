@@ -13,8 +13,6 @@
 #include <stdint.h>
 #include <msp430.h>
 
-static volatile uint16_t _timer_tick = 0;
-
 int timer_init(void);
 void delay(uint16_t ticks);
 
